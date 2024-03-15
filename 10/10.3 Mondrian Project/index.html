@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 198px 153px 1fr;
+      grid-template-rows: 1fr 1fr 155px 20px;
+      gap: 9px;
+      height: 748px;
+      width: 748px;
+      background-color: #000;
+    }
+    .grid1 {
+      height: 414px;
+      width: 320px;
+      background-color: #E72F24;
+      grid-column-start: 0;
+      grid-column-end: 1;
+    }
+    .grid2 {
+      background-color: #F0F1EC;
+      height: 414px;
+      grid-column: span 3;
+    }
+    .grid3 {
+      width: 320px;
+      background-color: #F0F1EC;
+      grid-row: span 2; 
+    }
+    .grid4 {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      grid-column:span 2;
+    }
+    .grid5 {
+      width: 50px;
+      height: 130px;
+      grid-row-start: 2;
+      grid-column-start: 3;
+      background-color: #004592;
+      border-bottom: 1px solid #000;
+    }
+    .grid6 {
+      width: 50px;
+      background-color: #F0F1EC;
+      grid-column-start: 3;
+      grid-row: span 2;
+    }
+    .grid7 {
+      width: 320px;
+      height: 20px;
+      background-color: #F0F1EC;
+      grid-row-start: 4;
+    }
+    .grid8 {
+      width: 198px;
+      height: 20px;
+      background-color: #F9D01E;
+      grid-row-start: 4;
+    }
+    .grid9 {
+      height: 20px;
+      background-color: #232629;
+      grid-row-start: 4;
+      grid-column-start: 2;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="grid1"></div>
+    <div class="grid2"></div>
+    <div class="grid3"></div>
+    <div class="grid4"></div>
+    <div class="grid5"></div>
+    <div class="grid6"></div>
+    <div class="grid7"></div>
+    <div class="grid8"></div>
+    <div class="grid9"></div>
+  </div>
+</body>
+
+</html>      
